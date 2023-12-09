@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+.square {
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.disappear {
+  background-color: white;
+  transition: background-color 0.5s ease; /* Smooth transition over 0.5 seconds */
+}
