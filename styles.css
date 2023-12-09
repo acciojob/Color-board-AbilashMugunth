@@ -2,6 +2,8 @@
   width: 1.4rem;
   height: 1.4rem;
   border: 1px solid black;
+  background-color: #1d1d1d;
+  margin: 0.08rem;
 }
 
 .row {
@@ -9,6 +11,12 @@
 }
 
 .disappear {
-  background-color: white;
-  transition: background-color 0.5s ease;
+  /* background-color: white; */
+  transition: background-color 0.5s ease; /* Smooth transition over 0.5 seconds */
+}
+
+.container {
+  background-color: black;
+  width: fit-content;
+  padding: 3rem 1.5rem;
 }

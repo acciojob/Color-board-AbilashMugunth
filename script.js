@@ -33,7 +33,8 @@ allCols.forEach((col) => {
 
   col.addEventListener("mouseout", () => {
     setTimeout(() => {
-      col.style.backgroundColor = "transparent";
+      col.style.backgroundColor = "#1d1d1d";
     }, 1000);
   });
 });
+
